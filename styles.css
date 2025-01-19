@@ -1,0 +1,77 @@
+* {
+    /* border: 1px solid black; */
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    min-width: 350px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #101820;
+    border-radius: 5px;
+}
+
+.main-screen {
+    background-color: #ecccbb;
+    width: 100%;
+    font-size: 5.5em;
+    text-align: right;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.ecuation {
+    padding-right: 10px;
+}
+
+
+.buttons-container {
+    background-color: #1c2423;
+    width: 100%;
+}
+
+.buttonRow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: normal;
+    gap: 2px;
+    border: none;
+    margin: 2px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #faae2b;
+    border-radius: 5px;
+}
+
+#zero {
+    grid-column: span 2;
+}
+
+.numberBtn, #dot {
+    background-color: #00473e;
+}
+
+#all-clear,
+#clear,
+#sign-change {
+    background-color: #3698e4;
+}
+
