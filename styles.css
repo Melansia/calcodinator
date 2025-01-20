@@ -1,7 +1,3 @@
-* {
-    /* border: 1px solid black; */
-}
-
 body {
     display: flex;
     height: 100vh;
@@ -14,23 +10,34 @@ body {
     min-height: 450px;
     display: flex;
     flex-direction: column;
-    border: 5px solid #101820;
+    border: 5px solid #000000;
     border-radius: 5px;
 }
 
 .main-screen {
-    background-color: #ecccbb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #000000;
+    color: azure;
+    min-height: 155px;
     width: 100%;
-    font-size: 5.5em;
-    text-align: right;
-    border: 5px solid black;
+    font-size: 3.5em;
+    border: 5px solid #000000;
     box-sizing: border-box;
 }
 
-.ecuation {
+.firstNumber,
+.secondNumber,
+.sign {
+    margin: 0;
     padding-right: 10px;
 }
 
+.sign {
+    font-size: medium;
+}
 
 .buttons-container {
     background-color: #1c2423;
