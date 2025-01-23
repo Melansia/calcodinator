@@ -28,15 +28,10 @@ body {
     box-sizing: border-box;
 }
 
-.firstNumber,
-.secondNumber,
-.sign {
+.equation,
+.userInput {
     margin: 0;
     padding-right: 10px;
-}
-
-.sign {
-    font-size: medium;
 }
 
 .buttons-container {
